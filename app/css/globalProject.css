@@ -120,6 +120,14 @@ html, body
 .main_central-block_list_part-img
 {
 	font-size: 0px;
+	position: relative;
+}
+.main_central-block_list_part-img_pre
+{
+	position: absolute;
+	top: 215px;
+	left: 35px;
+	transform: rotate(180deg);
 }
 .main_central-block_list_part-img-1
 {
@@ -150,6 +158,12 @@ html, body
 	display: inline-block;
 	margin-top:117px;
 	margin-left: 32.8px;
+}
+.main_central-block_list_part-img_post
+{
+	position: absolute;
+	top: 215px;
+	right: 35px;
 }
 
 .caption-big1
