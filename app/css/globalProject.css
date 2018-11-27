@@ -129,7 +129,13 @@ html, body
 	top: 215px;
 	left: 35px;
 	transform: rotate(180deg);
+	height: 20px;
+	width: 10px;
+	cursor: pointer;
+	z-index: 999;
 }
+
+
 
 .main_central-block_list_part-img_wrapper1
 {
@@ -261,9 +267,30 @@ html, body
 	position: absolute;
 	top: 215px;
 	right: 35px;
+	height: 20px;
+	width: 10px;
+	cursor: pointer;
+	z-index: 999;
 }
 
+#dots
+{
+	position: absolute;
+	top: 405px;
+	left: 510px;
+}
 
+.dot
+{
+	display: inline-block;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #e8ebd6;
+    border: 1px solid #0b0620;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
 
 
